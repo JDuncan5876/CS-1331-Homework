@@ -1,5 +1,0 @@
-@Hello
-@sample
-us@e
-order@
-c@de
