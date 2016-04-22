@@ -1,0 +1,1 @@
+java -jar checkstyle-6.2.2.jar -c cs1331-checkstyle.xml *.java

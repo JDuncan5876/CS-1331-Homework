@@ -1,0 +1,31 @@
+1.a. This causes a compiler error because the file needs to be exactly the same as the public class name.
+b. GTBuzz.java:1: error: class GTbuzz is public, should be declared in GTbuzz.java
+
+2.a. This causes a runtime error because you cannot divide by zero.
+b. Exception in thread "main" java.lang.ArithmeticException: / by zero
+
+3.a. This causes a compiler error because println alone is not a defined method
+b. GTBuzz.java:4: error: cannot find symbol
+		println("I'm a ramblin' wreck from Georgia Tech!");
+		^
+
+4.a. This causes a compiler error because when you don't have the " at the beginning of the string, the 
+system misinterprets the string elements as variable names and the apostrophes as character literal denotation. 
+Basically, you have to have the first double quotes for it to understand that it's a string.
+b. GTBuzz.java:4: error: unclosed character literal
+GTBuzz.java:4: error: unclosed character literal
+GTBuzz.java:4: error: ';' expected
+GTBuzz.java:4: error: ';' expected
+GTBuzz.java:4: error: unclosed character literal
+
+5. No error
+
+6.a. This causes a compiler error because every statement in Java must be ended with a semicolon, so removing 
+this one caused an error.
+b. GTBuzz.java:4: error: ';' expected
+		System.out.println("I'm a ramblin' wreck from Georgia Tech!")
+									     ^
+7.a. This causes a compiler error because the class must have a closing curly brace to denote its end.
+b. GTBuzz.java:5: error: reached end of file while parsing
+	} //End of main method
+	 ^
